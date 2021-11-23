@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "237197109442",
+    "project_id": "carkee-aad70",
+    "storage_bucket": "carkee-aad70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237197109442:android:bf52451032ac7bc4c7b35b",
+        "android_client_info": {
+          "package_name": "sg.carkee.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "237197109442-9pj8lp3pal5embjrkaggchqmaglfmlcv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sg.carkee.app",
+            "certificate_hash": "128fb00ba1759f4c2124b1b8ce7d039ee9e727a7"
+          }
+        },
+        {
+          "client_id": "237197109442-f22uo95hs3jsc1sjmi1uggtb65homhlc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNc0S6baWefwE6fWSwmZQrd2_yAvRMEdM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "237197109442-f22uo95hs3jsc1sjmi1uggtb65homhlc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "237197109442-vq4mn3ltnqr6ipk0o5o5h4r0ksn3n973.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "sg.carkee.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
