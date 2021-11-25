@@ -22,10 +22,10 @@ class ConfigSetting {
   static const appVersion = "1.0.12";
   static const clubName = "carkee";//"karkee";
   // static const baseURLFirstload = "https://carkee.solveware.co/";//"https://api.karkee.sg/"; // "https://api.karkee.sg/";
-  static const baseURLFirstload = "https://carkeeapi.carkee.sg/";//"https://api.karkee.sg/"; // "https://api.karkee.sg/";
-  // static const baseURLFirstload = "http://bccs.karkee.biz/";//"https://api.karkee.sg/"; // "https://api.karkee.sg/";
-  static const username = 'naruto';
-  static const password = 'bvM9pmEEQ7tfPZdC';
+  // static const baseURLFirstload = "https://carkeeapi.carkee.sg/";//"https://api.karkee.sg/"; // "https://api.karkee.sg/";
+  static const baseURLFirstload = "http://mapp.karkee.biz/";//"https://api.karkee.sg/"; // "https://api.karkee.sg/";
+  static const username = 'karkee';
+  static const password = 'karkee_server_pwd';
 
   //change set iconbottombar // clone must have icon app !
 

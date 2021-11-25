@@ -14,7 +14,8 @@ class SliderGuestScreen extends StatelessWidget {
       : super(key: key);
   @override
   Widget build(BuildContext context) {
-    return CarouselSlider.builder(
+    print("SliderGuestScreen BuildContext");
+    return (modelGalleries != null && modelGalleries.length > 0) ? CarouselSlider.builder(
         itemCount: modelGalleries.length,
         // itemCount: 30,
         itemBuilder: (BuildContext context, int itemIndex, int realIndex) =>
@@ -37,7 +38,7 @@ class SliderGuestScreen extends StatelessWidget {
           autoPlayInterval: Duration(seconds: 10),
           enlargeCenterPage: false, // invisual item lower
           enlargeStrategy: CenterPageEnlargeStrategy.height,
-        ));
+        )) : SizedBox();
   }
 
   void onPageChange(int index, CarouselPageChangedReason changeReason) {
