@@ -110,7 +110,7 @@ class DashboardScreenLogic extends GetxController {
     } else {
       print(
           " => CALL API $endpoint FALSE: $jsonBody with jsonQuery $jsonQuery");
-      if (jsonBody["code"] ?? 102 != 102){
+      if (jsonBody["code"] != 102){
         Session.shared.showAlertPopupOneButtonWithCallback(
             content: jsonBody["message"] ?? "");
       } else {
