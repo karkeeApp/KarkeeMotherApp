@@ -602,7 +602,7 @@ class Session {
   changeRootViewChooseRegister(BuildContext context) {
     Route route =
         MaterialPageRoute(builder: (context) => ChooseTypeRegisterScreen());
-    Navigator.of(context).pushReplacement(route);
+    Navigator.of(context).push(route);
   }
 
   changeRootViewToDashBoard() {
