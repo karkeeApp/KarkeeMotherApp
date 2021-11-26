@@ -32,6 +32,7 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
+  BuildContext c;
   var isChecked = false.obs;
   String udid = "";
   // String email = "";
@@ -63,6 +64,7 @@ class _LoginScreenState extends State<LoginScreen> {
   // bool _isAuthenticating = false;
 
   Padding buildLoginForm(BuildContext context) {
+    this.c = context;
     return Padding(
       padding: const EdgeInsets.only(
           left: Config.kDefaultPadding * 2,
@@ -522,7 +524,7 @@ class _LoginScreenState extends State<LoginScreen> {
         child: GestureDetector(
           onTap: () {
             print("go choose type register");
-            Session.shared.changeRootViewChooseRegister();
+            Session.shared.changeRootViewChooseRegister(c);
           },
           child: Column(
             children: [

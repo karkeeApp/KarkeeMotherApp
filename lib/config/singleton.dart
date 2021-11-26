@@ -304,7 +304,7 @@ class Session {
     clearEmailForBioLogin();
     clearEmailForRememberMe();
     //important
-    isLoged = false;//important!1
+    isLoged = false; //important!1
     Get.reset();
     print("remove token out box!");
   }
@@ -576,7 +576,6 @@ class Session {
     return isLoged;
   }
 
-
   getUIID() async {
     var deviceInfo = DeviceInfoPlugin();
     if (GetPlatform.isIOS) {
@@ -600,9 +599,10 @@ class Session {
     Get.offAll(() => AfterLoginScreen(), transition: Transition.noTransition);
   }
 
-  changeRootViewChooseRegister() {
-    print("changeRootViewChooseRegister");
-    Get.to(() => ChooseTypeRegisterScreen());
+  changeRootViewChooseRegister(BuildContext context) {
+    Route route =
+        MaterialPageRoute(builder: (context) => ChooseTypeRegisterScreen());
+    Navigator.of(context).pushReplacement(route);
   }
 
   changeRootViewToDashBoard() {

@@ -26,9 +26,11 @@ class GuestScreenV2 extends StatefulWidget {
 }
 
 class _GuestScreenV2State extends State<GuestScreenV2> {
+  BuildContext c;
   final GuestScreenV2Controller controller = Get.put(GuestScreenV2Controller());
   @override
   Widget build(BuildContext context) {
+    this.c = context;
     return Scaffold(
         body: Obx(() => (controller.isDone_callAPIGetBanner.value)
             ? buildBody()
@@ -96,7 +98,7 @@ class _GuestScreenV2State extends State<GuestScreenV2> {
         children: [
           BlackButton(
               callbackOnPress: () {
-                Session.shared.changeRootViewChooseRegister();
+                Session.shared.changeRootViewChooseRegister(c);
               },
               title: 'Register Now'),
           SizedBox(height: 10,),
