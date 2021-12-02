@@ -403,7 +403,7 @@
 					"$(PROJECT_DIR)/Flutter",
 				);
 				MARKETING_VERSION = 1.0.48;
-				PRODUCT_BUNDLE_IDENTIFIER = sg.karkee.app;
+				PRODUCT_BUNDLE_IDENTIFIER = sg.bccs.app;
 				PRODUCT_NAME = Carkee;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
@@ -547,7 +547,7 @@
 					"$(PROJECT_DIR)/Flutter",
 				);
 				MARKETING_VERSION = 1.0.48;
-				PRODUCT_BUNDLE_IDENTIFIER = sg.karkee.app;
+				PRODUCT_BUNDLE_IDENTIFIER = sg.bccs.app;
 				PRODUCT_NAME = Carkee;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
@@ -585,7 +585,7 @@
 					"$(PROJECT_DIR)/Flutter",
 				);
 				MARKETING_VERSION = 1.0.48;
-				PRODUCT_BUNDLE_IDENTIFIER = sg.karkee.app;
+				PRODUCT_BUNDLE_IDENTIFIER = sg.bccs.app;
 				PRODUCT_NAME = Carkee;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";

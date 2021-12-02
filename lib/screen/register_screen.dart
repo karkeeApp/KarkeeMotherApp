@@ -162,7 +162,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
   }
 
   callAPI() async {
-    Session.shared.showLoading();
+    // Session.shared.showLoading();
     print("start callAPI");
     if (validAgree() == false) return;
     var uiid = await Session.shared.getUIID();
@@ -185,7 +185,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
     });
     var network = NetworkAPI(endpoint: url_register, formData: formData);
     var jsonBody = await network.callAPIPOST();
-    Session.shared.hideLoading();
+    // Session.shared.hideLoading();
     if (jsonBody["code"] == 100) {
       var token = jsonBody["accesstoken"];
       print("save token if login success $token");
@@ -376,7 +376,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
               // }
               if (key.currentState.validate()) {
                 print("call API here ");
-                FocusScope.of(context).unfocus();
+                // FocusScope.of(context).unfocus();
                 callAPI();
               } else {
                 print('validation failed');
