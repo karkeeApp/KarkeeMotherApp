@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 
 class Config {
   static const Color primaryColor = Color(0xFF464646);//0xFF304983 darkgray
-  static const Color secondColor = Color(0xFFBE1E2D);// 0xFF464646 red
+  // static const Color secondColor = Color(0xFFBE1E2D);// 0xFF464646 red
+  static const Color secondColor = Color(0xFF0036E6);// 0xFF464646 red
   static const Color kTextLightColor = Color(0xFFACACAC);
   static const Color kTextColor = Color(0xFF535353);
   //F2F2F7 grab background

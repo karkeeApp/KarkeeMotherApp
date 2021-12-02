@@ -73,7 +73,7 @@ dependencies:
   store_redirect: ^2.0.0
   extended_image: ^4.1.0
   get: 4.1.4
-  get_storage: ^2.0.2
+  get_storage: 2.0.2
   flutter_svg: 0.22.0
 
   #  font_awesome_flutter: ^8.10.0
