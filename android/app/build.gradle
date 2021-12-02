@@ -88,7 +88,7 @@ android {
                 variant.outputs.all {
                     def date = new Date();
                     def formattedDate = date.format('yyyy-MM-dd HH-mm')
-                    outputFileName = "CarkeeV2_${variant.versionName}_${variant.buildType.name}_${formattedDate}.apk"
+                    outputFileName = "BCCS_${variant.versionName}_${variant.buildType.name}_${formattedDate}.apk"
                 }
             }
         }
