@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:237197109442:android:bf52451032ac7bc4c7b35b",
         "android_client_info": {
-          "package_name": "sg.carkee.app"
+          "package_name": "sg.karkee.app"
         }
       },
       "oauth_client": [
@@ -17,7 +17,7 @@
           "client_id": "237197109442-9pj8lp3pal5embjrkaggchqmaglfmlcv.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "sg.carkee.app",
+            "package_name": "sg.karkee.app",
             "certificate_hash": "128fb00ba1759f4c2124b1b8ce7d039ee9e727a7"
           }
         },
@@ -42,7 +42,7 @@
               "client_id": "237197109442-vq4mn3ltnqr6ipk0o5o5h4r0ksn3n973.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "sg.carkee.app"
+                "bundle_id": "sg.karkee.app"
               }
             }
           ]
