@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>237197109442-vq4mn3ltnqr6ipk0o5o5h4r0ksn3n973.apps.googleusercontent.com</string>
+	<string>646847861085-p5g01i21qvtm3a553h9dr9mq8e4709mc.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.237197109442-vq4mn3ltnqr6ipk0o5o5h4r0ksn3n973</string>
+	<string>com.googleusercontent.apps.646847861085-p5g01i21qvtm3a553h9dr9mq8e4709mc</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>646847861085-hs8aoci1hacjuqs45j0qoscuoq7e76a4.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
-	<string>AIzaSyD7KmaTf-efdzW5dG29SO8Pz9zc8Yp-K-w</string>
+	<string>AIzaSyBP3dktq9v1eVEDwiz9iWV9J4lb2f1U3N8</string>
 	<key>GCM_SENDER_ID</key>
-	<string>237197109442</string>
+	<string>646847861085</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>sg.karkee.app</string>
+	<string>sg.bccs.app</string>
 	<key>PROJECT_ID</key>
-	<string>carkee-aad70</string>
+	<string>agile-infinity-329404</string>
 	<key>STORAGE_BUCKET</key>
-	<string>carkee-aad70.appspot.com</string>
+	<string>agile-infinity-329404.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +31,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:237197109442:ios:14b33433b58045cbc7b35b</string>
+	<string>1:646847861085:ios:d53e433b7f9b71a215d8b4</string>
 </dict>
 </plist>

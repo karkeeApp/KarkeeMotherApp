@@ -20,7 +20,7 @@ class ConfigSetting {
   // static const env = Environment.dev;//for banner
   // static const env = Environment.production;
   static const appVersion = "1.0.12";
-  static const clubName = "carkee";//"karkee";
+  static const clubName = "bccs";//"karkee";
   // static const baseURLFirstload = "https://carkee.solveware.co/";//"https://api.karkee.sg/"; // "https://api.karkee.sg/";
   // static const baseURLFirstload = "https://carkeeapi.carkee.sg/";//"https://api.karkee.sg/"; // "https://api.karkee.sg/";
   static const baseURLFirstload = "http://bccs.karkee.biz/";//"https://api.karkee.sg/"; // "https://api.karkee.sg/";
@@ -37,7 +37,7 @@ class ConfigSetting {
 //get key google-services and put in ../android/app
 //SHA certificate fingerprints setup from https://developers.google.com/android/guides/client-auth
 //2 key Sh1 , 1 for QA debug key, 1 for key release
-///  keytool -list -v -alias androiddebugkey -keystore ~/.android/debug.keystore
+///  keytool -list -v -alias androiddebugkey -keystore android/app/debug.keystore
 ///  keytool -list -v -alias mclubforsingapore -keystore android/keystore
 ///
 ///
