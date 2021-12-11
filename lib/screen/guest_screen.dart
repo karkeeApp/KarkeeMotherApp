@@ -201,16 +201,16 @@ class GuestScreenV2Controller extends GetxController {
       print('jsonRespondBody $jsonRespondBody');
       var modelBannerResult = ModelBannerResult.fromJson(jsonRespondBody);
       this.modelBannerResult.value = modelBannerResult;
-      // isDone_callAPIGetBanner.value = true;
+      isDone_callAPIGetBanner.value = true;
       return jsonRespondBody; //must return after get done asynx
     } else {
       // Session.shared.showAlertPopupOneButtonWithCallback(
       //     content: jsonRespondBody["message"] ?? "", callback: (){
       //   callAPIGetBanner();
       // });
-      // isDone_callAPIGetBanner.value = false;
+      isDone_callAPIGetBanner.value = false;
     }
-    isDone_callAPIGetBanner.value = true;
+    // isDone_callAPIGetBanner.value = true;
   }
 }
 
