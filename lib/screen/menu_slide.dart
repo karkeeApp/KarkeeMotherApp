@@ -208,64 +208,64 @@ class _MenuSlideState extends State<MenuSlide> {
                       ),
                     ),
                   ) : SizedBox(),
-                  Session.shared.isLogedin() ? Theme(
-                    data: Theme.of(context).copyWith(
-                      dividerColor: Colors.transparent,
-                    ),
-                    child: ExpansionTile(
-                      expandedCrossAxisAlignment: CrossAxisAlignment.start,
-                      childrenPadding: EdgeInsets.only(bottom: 10),
-                      tilePadding: EdgeInsets.symmetric(horizontal: 20),
-                      title: Text('Clubs',
-                          style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 16,
-                              fontWeight: FontWeight.bold)),
-                      children: getListClubs(),
-                      onExpansionChanged: (value) {
-                        setState(() {
-                          _selected = value;
-                        });
-                      },
-                    ),
-                  ) : SizedBox(),
+                  // Session.shared.isLogedin() ? Theme(
+                  //   data: Theme.of(context).copyWith(
+                  //     dividerColor: Colors.transparent,
+                  //   ),
+                  //   child: ExpansionTile(
+                  //     expandedCrossAxisAlignment: CrossAxisAlignment.start,
+                  //     childrenPadding: EdgeInsets.only(bottom: 10),
+                  //     tilePadding: EdgeInsets.symmetric(horizontal: 20),
+                  //     title: Text('Clubs',
+                  //         style: TextStyle(
+                  //             color: Colors.white,
+                  //             fontSize: 16,
+                  //             fontWeight: FontWeight.bold)),
+                  //     children: getListClubs(),
+                  //     onExpansionChanged: (value) {
+                  //       setState(() {
+                  //         _selected = value;
+                  //       });
+                  //     },
+                  //   ),
+                  // ) : SizedBox(),
 
-                  Session.shared.isLogedin() ? InkWell(
-                    onTap: () {
-                      print("Member Join a Club");
-                      Get.to(() => JoinClubV2Page());
-                      // Get.back();
-                    },
-                    child: Padding(
-                      padding: const EdgeInsets.only(
-                          right: 20, left: 20, bottom: 20),
-                      child: Text(
-                        "Join a Club",
-                        style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 16,
-                            fontWeight: FontWeight.bold),
-                      ),
-                    ),
-                  ): SizedBox(),
-                  Session.shared.isLogedin() ? InkWell(
-                    onTap: () {
-                      print("Create a Club App tap");
-                      Get.to(() => GetAppScreen());
-                      // Get.back();
-                    },
-                    child: Padding(
-                      padding: const EdgeInsets.only(
-                          right: 20, left: 20, bottom: 10),
-                      child: Text(
-                        "Create a Club App",
-                        style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 16,
-                            fontWeight: FontWeight.bold),
-                      ),
-                    ),
-                  ) : SizedBox(),
+                  // Session.shared.isLogedin() ? InkWell(
+                  //   onTap: () {
+                  //     print("Member Join a Club");
+                  //     Get.to(() => JoinClubV2Page());
+                  //     // Get.back();
+                  //   },
+                  //   child: Padding(
+                  //     padding: const EdgeInsets.only(
+                  //         right: 20, left: 20, bottom: 20),
+                  //     child: Text(
+                  //       "Join a Club",
+                  //       style: TextStyle(
+                  //           color: Colors.white,
+                  //           fontSize: 16,
+                  //           fontWeight: FontWeight.bold),
+                  //     ),
+                  //   ),
+                  // ): SizedBox(),
+                  // Session.shared.isLogedin() ? InkWell(
+                  //   onTap: () {
+                  //     print("Create a Club App tap");
+                  //     Get.to(() => GetAppScreen());
+                  //     // Get.back();
+                  //   },
+                  //   child: Padding(
+                  //     padding: const EdgeInsets.only(
+                  //         right: 20, left: 20, bottom: 10),
+                  //     child: Text(
+                  //       "Create a Club App",
+                  //       style: TextStyle(
+                  //           color: Colors.white,
+                  //           fontSize: 16,
+                  //           fontWeight: FontWeight.bold),
+                  //     ),
+                  //   ),
+                  // ) : SizedBox(),
                   Session.shared.isLogedin() ? (isAdmin == false)
                       ? SizedBox()
                       : InkWell(
