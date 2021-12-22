@@ -112,11 +112,13 @@ class _ChooseTypeRegisterScreenState extends State<ChooseTypeRegisterScreen> {
             '\nWELCOME TO\n',
             style: Styles.mclub_UPCASETilte,
           ),
-          Image.asset(
-            "assets/images/logo.png",
-            // width: 100,
+          SizedBox(height: 200,width: 200,
+            child: Image.asset(
+              "assets/images/logo.png",
+              // width: 100,
 
-            // fit: BoxFit.fitWidth,
+              // fit: BoxFit.fitWidth,
+            ),
           ),
           Spacer(),
           // Obx(() => Text("Data after get1 : ${_controller.modelBannerResult.value.code}")),
