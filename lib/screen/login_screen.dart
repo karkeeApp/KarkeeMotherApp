@@ -769,7 +769,7 @@ class _LoginScreenState extends State<LoginScreen> {
   callAPI_LoginSocial(String token, int _type) async {
     print("token: $token");
     Session.shared.showLoading();
-    print("start _callAPIUploadImage");
+    print("start callAPI_LoginSocial");
     var bodyJson = {
       'login_type': _type,
       'sm_token': token,

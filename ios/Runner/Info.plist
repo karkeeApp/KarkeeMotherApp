@@ -13,7 +13,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>carkee</string>
+	<string>BCCS</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -28,16 +28,16 @@
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>com.googleusercontent.apps.646847861085-p5g01i21qvtm3a553h9dr9mq8e4709mc</string>
-				<string>fb269276291272983</string>
+				<string>fb603979087325885</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>FacebookAppID</key>
-	<string>269276291272983</string>
+	<string>603979087325885</string>
 	<key>FacebookDisplayName</key>
-	<string>Carkee</string>
+	<string>BCCS</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>LSApplicationQueriesSchemes</key>
@@ -54,21 +54,21 @@
 		<string>mapswithme</string>
 		<string>osmandmaps</string>
 		<string>dgis</string>
-		<string>fbapi</string>
-		<string>fbapi20130214</string>
-		<string>fbapi20130410</string>
-		<string>fbapi20130702</string>
-		<string>fbapi20131010</string>
-		<string>fbapi20131219</string>
-		<string>fbapi20140410</string>
-		<string>fbapi20140116</string>
-		<string>fbapi20150313</string>
-		<string>fbapi20150629</string>
-		<string>fbapi20160328</string>
-		<string>fbauth</string>
-		<string>fb-messenger-share-api</string>
-		<string>fbauth2</string>
-		<string>fbshareextension</string>
+        <string>fbapi</string>
+          <string>fbapi20130214</string>
+          <string>fbapi20130410</string>
+          <string>fbapi20130702</string>
+          <string>fbapi20131010</string>
+          <string>fbapi20131219</string>
+          <string>fbapi20140410</string>
+          <string>fbapi20140116</string>
+          <string>fbapi20150313</string>
+          <string>fbapi20150629</string>
+          <string>fbapi20160328</string>
+          <string>fbauth</string>
+          <string>fb-messenger-share-api</string>
+          <string>fbauth2</string>
+          <string>fbshareextension</string>
 	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>

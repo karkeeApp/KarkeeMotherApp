@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">BCCS login.</string>
-
-    <string name="facebook_app_id">269276291272983</string>
-    <string name="fb_login_protocol_scheme">fb269276291272983</string>
-
-
+    <string name="app_name">BCCS</string>
+    <string name="facebook_app_id">603979087325885</string>
+    <string name="fb_login_protocol_scheme">fb603979087325885</string>
 </resources>
