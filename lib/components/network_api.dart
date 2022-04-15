@@ -36,6 +36,7 @@ class NetworkAPI {
     print("callAPIGetSetting body jsonQuery: $jsonQuery");
     // print("FullURL: ${Session.shared.getBaseURL()}$endpoint");
     var fullUrl = '${Session.shared.getBaseURL()}$endpoint';
+    print("[Debug]${Session.shared.getBaseURL()}");
     print("FullURL: $fullUrl");
     try {
       response = await dio.get(endpoint, queryParameters: jsonQuery);

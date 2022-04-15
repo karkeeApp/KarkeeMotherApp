@@ -1,4 +1,4 @@
-const url_getsetting = 'app/endpoint';
+const url_getsetting = 'app/endpoint?c=p9club&v=1.0.12&e=android';
 const url_site_setting = "site/settings";
 //
 const url_userpayment_remove_ads = "user-payment/remove-ads";

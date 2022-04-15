@@ -20,12 +20,12 @@ class ConfigSetting {
   // static const env = Environment.dev;//for banner
   // static const env = Environment.production;
   static const appVersion = "1.0.12";
-  static const clubName = "bccs";//"karkee";
+  static const clubName = "p9club";//"bccs";//"karkee";
   // static const baseURLFirstload = "https://carkee.solveware.co/";//"https://api.karkee.sg/"; // "https://api.karkee.sg/";
   // static const baseURLFirstload = "https://carkeeapi.carkee.sg/";//"https://api.karkee.sg/"; // "https://api.karkee.sg/";
-  static const baseURLFirstload = "http://bccs.karkee.biz/";//"https://api.karkee.sg/"; // "https://api.karkee.sg/";
-  static const username = 'bccs';
-  static const password = 'bccs_server_pwd';
+  static const baseURLFirstload = "https://staging.api.p9.karkee.biz";//"https://api.karkee.sg/"; // "https://api.karkee.sg/";
+  static const username = 'sasuke';
+  static const password = 'ZhNnvB79BNc5PzAS';
 
   //change set iconbottombar // clone must have icon app !
 
@@ -33,7 +33,7 @@ class ConfigSetting {
   //Android Package name : sg.carkee.app
 ///Notification
 ///https://firebase.flutter.dev/docs/messaging/overview/
-///
+///i
 //get key google-services and put in ../android/app
 //SHA certificate fingerprints setup from https://developers.google.com/android/guides/client-auth
 //2 key Sh1 , 1 for QA debug key, 1 for key release
