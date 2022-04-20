@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:646847861085:android:8a1557a50298e9fe15d8b4",
         "android_client_info": {
-          "package_name": "sg.bccs.app"
+          "package_name": "sg.p9.app"
         }
       },
       "oauth_client": [
@@ -17,7 +17,7 @@
           "client_id": "646847861085-akl3cd7chp4pdi0fc420tqo1v6h6o4kc.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "sg.bccs.app",
+            "package_name": "sg.p9.app",
             "certificate_hash": "8abfd99fb084480dd4147ae81d776d76597a4bda"
           }
         },
@@ -25,7 +25,7 @@
           "client_id": "646847861085-vriisvd43bqd10g34v3nv1jni0ldgq0n.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "sg.bccs.app",
+            "package_name": "sg.p9.app",
             "certificate_hash": "7d2064eb74999638b28916b9cfa36ad7f79132e9"
           }
         },
@@ -50,7 +50,7 @@
               "client_id": "646847861085-p5g01i21qvtm3a553h9dr9mq8e4709mc.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "sg.bccs.app"
+                "bundle_id": "sg.p9.app"
               }
             }
           ]
@@ -61,7 +61,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:646847861085:android:b6d69a9bc17ded3215d8b4",
         "android_client_info": {
-          "package_name": "sg.bccs.app"
+          "package_name": "sg.p9.app"
         }
       },
       "oauth_client": [
@@ -69,7 +69,7 @@
           "client_id": "646847861085-tnaueotmg20t94q8bdale23lh6v41s49.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "sg.bccs.app",
+            "package_name": "sg.p9.app",
             "certificate_hash": "81eae43b15869fd33194da706e9aff7930db4b8d"
           }
         },
@@ -94,7 +94,7 @@
               "client_id": "646847861085-p5g01i21qvtm3a553h9dr9mq8e4709mc.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "sg.bccs.app"
+                "bundle_id": "sg.p9.app"
               }
             }
           ]
@@ -130,7 +130,7 @@
               "client_id": "646847861085-p5g01i21qvtm3a553h9dr9mq8e4709mc.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "sg.bccs.app"
+                "bundle_id": "sg.p9.app"
               }
             }
           ]

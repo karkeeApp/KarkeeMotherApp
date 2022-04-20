@@ -1,4 +1,4 @@
-package sg.bccs.app
+package sg.p9.app
 //
 //import io.flutter.embedding.android.FlutterActivity
 //
